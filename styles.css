@@ -101,19 +101,25 @@ body {
 .border-box.basic {
   display: flex;
   align-items: stretch;
-  height: 80%;
+  height: 90%;
+  position: relative;
+  flex-direction: column;
 }
 
 .border-box.media {
   display: flex;
   align-items: stretch;
-  height: 80%;
+  height: 90%;
+  position: relative;
+  flex-direction: column;
 }
 
 .border-box.alta {
   display: flex;
   align-items: stretch;
-  height: 80%;
+  height: 90%;
+  position: relative;
+  flex-direction: column;
 }
 
 .basic {
@@ -133,7 +139,7 @@ body {
   height: 90vh;
   max-height: 500px;
   object-fit: cover;
-  object-position: center;
+  object-position: center top;
 }
 
 .container {
